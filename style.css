@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/********** HEADER **********/
+.header-section {
+    background-color: #1F2937;
+    padding: 0 300px;
+}
+
+/* navbar */
+.navbar {
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-list a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-weight: 900;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+/* header content */
+
+.header-content {
+    padding: 150px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.header-message {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-message h1 {
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.header-message div {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 15px;
+}
+
+.header-message a {
+    background-color: #3882F6;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 0;
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 18px;
+    width: 130px;
+}
+
+.main-image {
+    max-height: auto;
+    max-width: 600px;
+}
